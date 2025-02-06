@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slideshow</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    h1 {text-align: center;}
+    .carousel-item img {
+      width: 500px;
+      height: 800px;
+          }
+  </style>
+</head>
+<body>
+  <h1>Bootstrap SlideShow</h1>
+  <!-- Navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"</a>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="file:///D:/22UAI120/pexels-pixabay-45201.jpg" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="D:\22UAI120\pexels-tranmautritam-2194261.jpg" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="file:///D:/22UAI120/pexels-pixabay-416160.jpg" class="d-block w-100" alt="Image 3">
+      </div>
+    </div>
+    <!-- Controls (Arrows) -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Bootstrap JS and Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
